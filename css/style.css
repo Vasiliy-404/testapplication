@@ -1,0 +1,56 @@
+html,
+body{
+  height: 100%;
+}
+
+body{
+  font-family: 'Lato Regular', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000;
+  margin: 0;
+}
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#task-text {
+  width: 100%;
+}
+.container h3 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.alert.save-task {
+  margin-top: 15px;
+}
+.hidden {
+  display: none;
+}
+.form-check input[type=checkbox] {
+  margin-top: 3px;
+}
+.td-text, .dropdown-item {
+  cursor: pointer;  
+}
+.td-text textarea {
+  min-width: 400px;
+  width: 100%;
+  min-height: 100px;
+  padding: 5px;
+  border-radius: 3px;
+  border-color: #aaaaaa;
+}
+.td-text:hover {
+  background-color: #cedcea;
+  transition: ease 1s;
+}
+.td-status {
+  min-width: 155px;
+}
+.container-auth {
+  max-width: 500px;
+}
